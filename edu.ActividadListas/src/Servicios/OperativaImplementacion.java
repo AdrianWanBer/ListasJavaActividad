@@ -28,8 +28,8 @@ public class OperativaImplementacion implements OperativaInterfaz{
 		System.out.println("Cambiando posiciones");
 		int numeroTemp = listaNumerosTemp.get(1);
 		int numeroTempDos = listaNumerosTemp.get(3);
-		listaNumerosTemp.set(1,numeroTempDos);
-		listaNumerosTemp.set(3, numeroTemp);
+		listaNumerosTemp.set(2,numeroTempDos);
+		listaNumerosTemp.set(4, numeroTemp);
 		for(Integer recorrido :listaNumerosTemp) {
 		      System.out.println(recorrido);
 		    }
